@@ -7,6 +7,6 @@ for (let i = 0; i<cookies.length; i++) {
 
 const vacationSpots = ['India', 'UK', 'Scotland'];
 
-for (let vacationSpotIndex = 0; vacationSpotIndex < vacationSpots.length; vacationSpotIndex++) {
+for (let vacationSpotIndex = vacationSpots.length - 1; vacationSpotIndex >= 0; vacationSpotIndex--) {
   console.log(`I would like to visit: ${vacationSpots[vacationSpotIndex]}`);
 }
