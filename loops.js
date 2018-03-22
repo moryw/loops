@@ -2,11 +2,11 @@
 let cookies = ['chocolate chip', 'raisin', 'macadamia nut', 'sugar'];
 
 for (let i = 0; i<cookies.length; i++) {
-  console.log('I would love to eat a ' + cookies[i] + ' cookie right now!');
+  //console.log('I would love to eat a ' + cookies[i] + ' cookie right now!');
 }
 
 const vacationSpots = ['India', 'UK', 'Scotland'];
 
-console.log(vacationSpots[0]);
-console.log(vacationSpots[1]);
-console.log(vacationSpots[2]);
+for (let vacationSpotIndex = 0; vacationSpotIndex < vacationSpots.length; vacationSpotIndex++) {
+  console.log(`I would like to visit: ${vacationSpots[vacationSpotIndex]}`);
+}
