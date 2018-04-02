@@ -12,20 +12,47 @@
 // }
 
 
-//to loop to compare to arrays
+//a loop to compare to arrays
 
-let myPlaces = ['India', 'Scotland', 'Europe'];
+// let myPlaces = ['India', 'Scotland', 'Europe'];
+//
+// let friendPlaces = ['India', 'Napol', 'Africa'];
+//
+// for (let myPlacesIndex = 0; myPlacesIndex < myPlaces.length; myPlacesIndex++ ) {
+//   console.log(myPlaces[myPlacesIndex]);
+//   for (let friendPlacesIndex = 0; friendPlacesIndex < friendPlaces.length; friendPlacesIndex++) {
+//     if (myPlaces[myPlacesIndex] === friendPlaces[friendPlacesIndex]) {
+//       console.log(friendPlaces[friendPlacesIndex]);
+//       }
+//     }
+//   }
 
-let friendPlaces = ['India', 'Napol', 'Africa'];
+//while loop
 
-for (let myPlacesIndex = 0; myPlacesIndex < myPlaces.length; myPlacesIndex++ ) {
-  console.log(myPlaces[myPlacesIndex]);
-  for (let friendPlacesIndex = 0; friendPlacesIndex < friendPlaces.length; friendPlacesIndex++) {
-    if (myPlaces[myPlacesIndex] === friendPlaces[friendPlacesIndex]) {
-      console.log(friendPlaces[friendPlacesIndex]);
-      }
-    }
-  }
+// let cards = ['Diamond', 'Spade', 'Heart', 'Club'];
+//
+// let currentCard = cards[Math.floor(Math.random() * 4)];;
+//
+// while (currentCard !== 'Spade') {
+//   console.log(currentCard);
+//   currentCard = cards[Math.floor(Math.random() * 4)];
+// }
+//
+// console.log('Found a Spade!');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
