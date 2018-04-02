@@ -40,7 +40,17 @@
 //
 // console.log('Found a Spade!');
 
+//infinite loops need to be broken
 
+let flag = true;
+let counter = 0;
+while(flag === true){
+  console.log(counter);
+  counter+=1;
+  if (counter === 37){ //breaks/terminates the loop because it reachs a condition
+    break;
+  }
+}
 
 
 
