@@ -17,3 +17,7 @@
 let myPlaces = ['India', 'Scotland', 'Europe'];
 
 let friendPlaces = ['India', 'Napol', 'Africa'];
+
+for (let myPlacesIndex = 0; myPlacesIndex < myPlaces.length; myPlacesIndex++ ) {
+  console.log(myPlaces[myPlacesIndex]);
+}
