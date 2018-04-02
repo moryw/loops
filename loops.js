@@ -20,4 +20,15 @@ let friendPlaces = ['India', 'Napol', 'Africa'];
 
 for (let myPlacesIndex = 0; myPlacesIndex < myPlaces.length; myPlacesIndex++ ) {
   console.log(myPlaces[myPlacesIndex]);
-}
+  for (let friendPlacesIndex = 0; friendPlacesIndex < friendPlaces.length; friendPlacesIndex++) {
+    if (myPlaces[myPlacesIndex] === friendPlaces[friendPlacesIndex]) {
+      console.log(friendPlaces[friendPlacesIndex]);
+      }
+    }
+  }
+
+
+
+
+
+  //end
